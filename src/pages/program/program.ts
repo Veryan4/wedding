@@ -18,6 +18,7 @@ class ProgramComponent extends LitElement {
     const programSteps = Array.from(Array(this.numberOfSteps).keys()).map(i => i+1);
     return html`
       <div class="wrap">
+        <div class="logo" title="Veryan and Kaye"></div>
         ${programSteps.map(((n) => html`
           <div class="title">${this.i18n.t('program.' + n + '.title')}</div>
           <div class="date">${this.i18n.t('program.' + n + '.time')}</div>

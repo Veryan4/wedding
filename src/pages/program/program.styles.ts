@@ -10,7 +10,16 @@ export const styles = css`
     max-width:40vw;
     font-family: var(--font-family);
     height: 100%;
-    padding: 4rem;
+    padding: 8rem 4rem 4rem 4rem;
+  }
+
+  .logo {
+    margin-bottom: 1.5rem;
+    height: 8.4rem;
+    width: 7.5rem;
+    background-image: url(/vk_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .warning {
